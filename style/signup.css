@@ -1,0 +1,112 @@
+        body{
+            color: white;
+            line-height: 25px;
+            background-color: #3498db;
+            line-height: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        fieldset{
+            margin-left: 65%;
+            margin-top: -30%;
+            width: 200px;
+        }
+        input{
+            outline: none;
+            width: 195px;
+            height: 25px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-color: black;
+            background: none;
+        }
+        .submit{
+            border-radius: 10px;
+            width: 120px;
+            height: 30px;
+            margin-left: 40px;
+            background: darkorange;
+            cursor: pointer;
+        }
+        form a{
+            text-decoration: none;
+            color: darkorange;
+            font-size: 20px;
+            font-weight: bolder;
+            padding-left: 10px;
+
+        }
+        /* ----------------------------------------------Header--------------------------------------- */
+        header img{
+            width: 90px;
+            height: 80px;
+            border-radius: 70px;
+        }
+        /* ----------------------------------------aside---------------------------------------- */
+        aside{
+            margin-top: 10%;
+            margin-left: 8%;
+            font-weight: 20;
+            width: 700px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1{
+            text-transform: capitalize;
+            padding-left: 60px;
+        }
+        h2{
+            text-transform: capitalize;
+            padding-left: 120px;
+        }
+/* ---------------------------------------Footer------------------------------------------------- */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 100px;   
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-social ul li a i {
+    transition: color 0.3s ease;
+}
+
+.footer-social ul li a i:hover {
+    color: darkorange; 
+}
